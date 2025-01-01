@@ -6,6 +6,7 @@ def subtract(a, b):
 def multiply(a, b):
 	return a*b
 
+
 def getMedian(a, b):
     return (a+b)/2
 
@@ -20,3 +21,7 @@ def get_Abs(num):
 		return num
 	else: 
 		return -num
+
+def get_percent(a, b):
+	return (a/b) * 100
+
